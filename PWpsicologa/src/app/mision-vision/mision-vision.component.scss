@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+.mision_vision{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    width: 80%;
+    margin: 0 auto;
+    background: #61c9a8;
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 10px;
+    text-align: center;
+    font-family: Dancing Script;
+}
+.mision {
+    width: 35%;
+    padding: 8px 18px;
+    margin-left: -100px;
+    color: rgb(0, 0, 0);
+    margin-right: 10px;
+}
+.vision {
+    color:rgb(0, 0, 0);
+    width: 35%;
+    padding: 8px 18px;
+}
+.mision_vision img{
+    width: 100%;
+    padding-right: 50px;
+    margin-left: -100px;
+}
+
+@media only screen and (max-width: 1100px) {
+    .mision_vision{
+        justify-content: center;
+        display: block;
+        text-align: center;
+        padding: 0 40px;
+        width: 80%;
+        margin: 0 auto;
+        background: #61c9a8;
+        border-radius: 10px 10px 10px 10px;
+        margin-top: 10px;
+    }
+
+    .mision {
+        width: 100%;
+        padding: 0px auto;
+        margin-left: 0px;
+    }
+    .vision {
+        width: 100%;
+        padding: 0px auto;
+        margin-left: 0px;
+    }
+    .mision_vision img{
+        width: 70%;
+        margin-left: 15%;
+    }
+}
+
+.card{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    background-color: transparent;
+    margin-left: 10%;
+}
+
+.card h1{
+    text-align: center;
+    font-size: 40px;
+    color:#61c9a8;  
+}
+
+.card .card-text{
+    color: aliceblue;
+}
+
+.card a {
+    color: #212526;
+    display: block;
+    margin: 0 2px;
+    font-weight: 600;
+    padding: 8px 18px;
+    transition: 0.2s;
+    border-radius: 30px;
+    text-align: center;
+    background: #f6f4ff;
+}
+
+a:hover{
+    background: #61c9a8;
+}
+
+.card img{
+    width: 100%;
+    border-radius: 5px, 50px;
+    margin-right: 230px;
+}
